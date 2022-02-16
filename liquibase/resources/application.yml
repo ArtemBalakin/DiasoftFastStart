@@ -1,0 +1,13 @@
+spring:
+  liquibase:
+    enabled: true
+  datasource:
+    url: "jdbc:postgresql://localhost:5432/liquibase"
+    username: postgres
+    password: 22446688
+  jpa:
+    hibernate:
+      ddl-auto: none
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+
